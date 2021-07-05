@@ -63,6 +63,8 @@ h1{
 .profile-photo-div img{
     width: 75%;
     float: right;
-    border: 5px solid;
+    border: 5px solid crimson;
+    border-image: linear-gradient(crimson, orange);
+    border-image-slice: 1;
     bor
 }
