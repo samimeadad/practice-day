@@ -1,0 +1,54 @@
+#website-body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Otomanopee One', sans-serif;
+    background-color: bisque;
+}
+
+h1{
+    font-size: 44px;
+}
+
+.menu-bar-section{
+    width: 100%;
+    text-align: left;
+}
+
+.menu-bar-div{
+    overflow: hidden;
+    background-color:honeydew;
+}
+
+.menu-bar-div a{
+    float: left;
+    color:crimson;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.menu-bar-div a:hover{
+    background-color:crimson;
+    color: white;
+}
+
+.menu-bar-div a.active{
+    background-color:lightcoral;
+    color: crimson;
+}
+
+.introduction-section{
+    display: flex;
+}
+
+.welcome-div{
+    width: 50%;
+    margin-right: 8%;
+}
+
+.profile-photo-div{
+    width: 50%;
+    margin-right: 2%;
+    margin-top: 2%;
+}
